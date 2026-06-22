@@ -1,0 +1,5 @@
+; Placeholder HEX file for bus-display project
+; This is not a real hex — rebuild project in Keil to generate a valid HEX.
+; File included to help Proteus load step if user prefers to replace with built .hex
+
+; If you need a real .hex, open the Keil project under keil/ and build it.

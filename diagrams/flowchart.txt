@@ -1,0 +1,14 @@
+flowchart.txt
+
+Program Flow (high level):
+
+1. Initialization
+   - Initialize ST7920 (serial) and clear graphic RAM
+2. Main loop
+   - Read current line and stop indices
+   - Render current stop bitmap at top; next stop bitmap at bottom
+   - Poll keys (Next/Prev/Switch/Edit)
+   - On key event: update indices/line; beep; refresh display
+3. Edit mode (simplified)
+   - Edit cycles through preset bitmaps for demo purposes
+

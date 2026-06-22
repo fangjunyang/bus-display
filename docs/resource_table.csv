@@ -1,0 +1,13 @@
+resource_table.csv
+Component,Port/Usage,Notes
+AT89C51,MCU,12MHz
+P1.0,SCLK (ST7920 serial)
+P1.1,SDIN (ST7920 serial)
+P1.2,RS (ST7920 serial)
+P3.0,Next key (active low)
+P3.1,Prev key (active low)
+P3.2,Switch Line key (active low)
+P3.3,Edit key (active low)
+P3.4,Buzzer (active high)
+ROM,include/hzk16.h,Embedded 16x16 bitmaps for station names
+RAM,few bytes,Current indices and state
